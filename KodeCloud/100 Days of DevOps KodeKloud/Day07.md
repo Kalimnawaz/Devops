@@ -1,9 +1,7 @@
 # Day 7: Linux SSH Authentication
-
-
 We use password-less authentication via SSH keys to securely and automatically connect to servers without exposing passwords in scripts.
 
-Table of Contents
+# Table of Contents
 + The Task
 + Goal
 + Manual SOlution:
