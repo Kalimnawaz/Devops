@@ -3,13 +3,13 @@ We use password-less authentication via SSH keys to securely and automatically c
 
 
 # Table of Contents
-+ [The Task](the-task)
-+ Goal
-+ Manual SOlution:
++ [The Task:](The Task:)
++ [Goal:](Goal:)
++ [Manual SOlution:](Manual SOlution:)
 + Shell Script Solution:
 
 --------------------------------------------------------------------
-The Task
+The Task:
 
 The system admins team of xFusionCorp Industries has set up automation scripts on the jump host that need to run on all app servers in the Stratos Datacenter.
 
