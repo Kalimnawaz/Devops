@@ -3,7 +3,7 @@ We use password-less authentication via SSH keys to securely and automatically c
 
 
 # Table of Contents
-+ The Task
++ [The Task](the-task)
 + Goal
 + Manual SOlution:
 + Shell Script Solution:
@@ -29,7 +29,8 @@ Set up SSH key-based authentication from the thor user on the jump host to each 
 
 --------------------------------------------------------------------
 
-Manual SOlution:
+Manual Solution:
+
 Step 1: Generate SSH key for thor on jump host:
 
 Log in as thor on the jump host:
