@@ -8,6 +8,7 @@ We use password-less authentication via SSH keys to securely and automatically c
 + Manual SOlution:
 + Shell Script Solution:
 
+--------------------------------------------------------------------
 The Task
 
 The system admins team of xFusionCorp Industries has set up automation scripts on the jump host that need to run on all app servers in the Stratos Datacenter.
@@ -20,9 +21,13 @@ App Server 2 → steve
 
 App Server 3 → banner
 
+--------------------------------------------------------------------
+
 Goal:
 
 Set up SSH key-based authentication from the thor user on the jump host to each app server, so scripts can execute remotely without requiring passwords.
+
+--------------------------------------------------------------------
 
 Manual SOlution:
 Step 1: Generate SSH key for thor on jump host:
