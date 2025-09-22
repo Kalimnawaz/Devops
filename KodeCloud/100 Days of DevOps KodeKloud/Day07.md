@@ -74,4 +74,4 @@ You should be logged in without entering a password.
 
 --------------------------------------------------------------------
 
-### The Shell Script Solution
+### Shell Script Solution
