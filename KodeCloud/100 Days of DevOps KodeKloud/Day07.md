@@ -35,8 +35,7 @@ Step 1: Generate SSH key for thor on jump host:
 
 Log in as thor on the jump host:
 
-ssh-keygen -t ed25519 -C "thor-jumphost-to-app-servers"
-or ssh-keygen -t rsa
+<pre> ``` ssh-keygen -t ed25519 -C "thor-jumphost-to-app-servers" ssh-keygen -t rsa ``` </pre>
 
 
 Press Enter to accept default location (~/.ssh/id_ed25519)
