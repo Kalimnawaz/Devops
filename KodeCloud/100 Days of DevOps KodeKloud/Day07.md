@@ -23,13 +23,13 @@ App Server 3 → banner
 
 --------------------------------------------------------------------
 
-Goal:
+### Goal:
 
 Set up SSH key-based authentication from the thor user on the jump host to each app server, so scripts can execute remotely without requiring passwords.
 
 --------------------------------------------------------------------
 
-Manual Solution:
+### Manual Solution:
 
 Step 1: Generate SSH key for thor on jump host:
 
