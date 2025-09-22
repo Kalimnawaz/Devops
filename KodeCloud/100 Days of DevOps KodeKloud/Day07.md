@@ -5,7 +5,7 @@ We use password-less authentication via SSH keys to securely and automatically c
 # Table of Contents
 + [The Task:](#The-Task)
 + [Goal:](#Goal)
-+ [Manual Solution:](#Manual-Solution:)
++ [Manual Solution:](#Manual-Solution)
 + [Shell Script Solution:](#Shell-Script-Solution) 
 
 --------------------------------------------------------------------
