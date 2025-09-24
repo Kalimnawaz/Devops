@@ -1,4 +1,5 @@
 Task:
+
 Day by day traffic is increasing on one of the websites managed by the Nautilus production support team. 
 Therefore, the team has observed a degradation in website performance. 
 Following discussions about this issue, the team has decided to deploy this application on a high availability stack i.e on Nautilus infra in Stratos DC. 
