@@ -1,3 +1,4 @@
+Task:
 Day by day traffic is increasing on one of the websites managed by the Nautilus production support team. 
 Therefore, the team has observed a degradation in website performance. 
 Following discussions about this issue, the team has decided to deploy this application on a high availability stack i.e on Nautilus infra in Stratos DC. 
@@ -8,8 +9,7 @@ a. Install nginx on LBR (load balancer) server.
 b. Configure load-balancing with the an http context making use of all App Servers. 
    Ensure that you update only the main Nginx configuration file located at /etc/nginx/nginx.conf.
 
-Requirements
-
+Requirements:
 1. ssh to LBR server
 2. check what is the port on which Apache is listening for all the app servers: by doing ssh on all the servers
    sudo ss -tulnp | grep httpd
