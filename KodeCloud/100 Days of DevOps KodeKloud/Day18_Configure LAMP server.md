@@ -19,6 +19,7 @@ You should see a message like App is able to connect to the database using user 
 
 On All App Hosts
 Step 1: Install Apache (httpd), PHP, and dependencies
+
 sudo yum install -y httpd php php-mysqlnd php-fpm php-json
 
 Step 2: Change Apache port to 6300
@@ -87,5 +88,21 @@ sudo wget https://wordpress.org/latest.tar.gz
 sudo tar -xvzf latest.tar.gz
 sudo mv wordpress/* .
 sudo rm -rf wordpress latest.tar.gz
-sudo chown apache:apache /var/www/html/wp-config.php
 sudo chown -R apache:apache /var/www/html
+sudo cp /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
+sudo chown apache:apache /var/www/html/wp-config.php
+
+Edit the file to update DB details:
+
+sudo vi /var/www/html/wp-config.php
+
+
+And set:
+
+define( 'DB_NAME', 'DB server name' );
+define( 'DB_USER', 'DB user name' );
+define( 'DB_PASSWORD', 'DB password' );
+define( 'DB_HOST', '<DB_SERVER_IP>' );
+
+
+
